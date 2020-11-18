@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import Polygon from 'polygon-maker/dist';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-header">
+      <Polygon shape="square" color="red"/>
+      <Polygon shape="rectangle" color="coral"/>
+      <Polygon shape="oval" color="yellow"/>
+      <Polygon shape="triangleUp" color = "green"/>
+      <Polygon shape="triangleDown" color = "blue"/>
+      <Polygon shape="trapezoid" color = "purple"/>
+      <Polygon shape="parallelogram" color = "pink"/>
     </div>
   );
 }
