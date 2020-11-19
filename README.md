@@ -2,6 +2,9 @@
 
 A really basic React component published to npm. Use the Polygon maker to make 7 different polygons of any color easily.
 
+### Tutorial
+- COMING SOON
+
 ### Example use
 
 ```
@@ -28,5 +31,3 @@ export default App;
 Result:
 
 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1605672857817/pQnNcVdlP.png"/>
-
-### Tutorial (COMING SOON)
